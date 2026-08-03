@@ -30,19 +30,5 @@ When a crash signal is detected from the hardware, the app:
 - 🚨 SOS message trigger
 - 📱 Clean UI with live data display
 
-## Twilio Setup
 
-Create
-
-lib/config/twilio_config_local.dart
-
-and add
-
-class TwilioConfig {
-static const String accountSid = "...";
-static const String authToken = "...";
-static const String messagingServiceSid = "...";
-}
-
-This file is ignored by Git.
 
